@@ -1,0 +1,3086 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MapSource 6.13.7" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2020-05-04T06:55:19Z</time>
+    <bounds maxlat="51.9148400" maxlon="11.3477999" minlat="51.4889700" minlon="10.2250300"/>
+  </metadata>
+
+  <wpt lat="51.8416490" lon="10.5799757">
+    <ele>555.0000000</ele>
+    <time>2010-02-16T11:25:59Z</time>
+    <name>HWN001</name>
+    <cmt>Eckertalsperre (Staumauer)</cmt>
+    <desc>Eckertalsperre (Staumauer)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8301677" lon="10.6027742">
+    <ele>635.0000000</ele>
+    <name>HWN002</name>
+    <cmt>Scharfenstein (Rangerstation)</cmt>
+    <desc>Scharfenstein (Rangerstation)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8443695" lon="10.6118006">
+    <ele>567.0000000</ele>
+    <name>HWN003</name>
+    <cmt>Am Kruzifix (Schutzhütte)</cmt>
+    <desc>Am Kruzifix (Schutzhütte)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8621278" lon="10.6185975">
+    <ele>555.0000000</ele>
+    <time>2010-02-16T11:26:58Z</time>
+    <name>HWN004</name>
+    <cmt>Taubenklippe</cmt>
+    <desc>Taubenklippe</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8519155" lon="10.6545704">
+    <ele>523.0000000</ele>
+    <name>HWN005</name>
+    <cmt>Froschfelsen</cmt>
+    <desc>Froschfelsen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8286834" lon="10.6348500">
+    <ele>556.0000000</ele>
+    <time>2009-03-18T12:38:30Z</time>
+    <name>HWN006</name>
+    <cmt>Obere Ilsefälle (Bremer Hütte)</cmt>
+    <desc>Obere Ilsefälle (Bremer Hütte)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8321480" lon="10.6682581">
+    <ele>551.0000000</ele>
+    <name>HWN007</name>
+    <cmt>Gasthaus Plessenburg</cmt>
+    <desc>Gasthaus Plessenburg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8193666" lon="10.6279167">
+    <ele>650.0000000</ele>
+    <time>2010-05-08T18:19:34Z</time>
+    <name>HWN008</name>
+    <cmt>Stempelsbuche</cmt>
+    <desc>Stempelsbuche</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8005385" lon="10.6157828">
+    <ele>1124.0000000</ele>
+    <name>HWN009</name>
+    <cmt>Brockenhaus</cmt>
+    <desc>Brockenhaus</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8026431" lon="10.6433484">
+    <ele>922.0000000</ele>
+    <time>2010-02-16T11:34:06Z</time>
+    <name>HWN010</name>
+    <cmt>Große Zeterklippe</cmt>
+    <desc>Große Zeterklippe</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7849852" lon="10.6179225">
+    <ele>922.0000000</ele>
+    <time>2010-02-16T11:34:48Z</time>
+    <name>HWN011</name>
+    <cmt>Eckerloch</cmt>
+    <desc>Eckerloch</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7614500" lon="10.5691333">
+    <ele>896.0000000</ele>
+    <time>2010-09-29T09:44:21Z</time>
+    <name>HWN012</name>
+    <cmt>Achtermannshöhe</cmt>
+    <desc>Achtermannshöhe</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7735635" lon="10.6671864">
+    <ele>806.0000000</ele>
+    <name>HWN013</name>
+    <cmt>Ahrentsklint</cmt>
+    <desc>Ahrentsklint</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7544489" lon="10.6656521">
+    <ele>671.0000000</ele>
+    <name>HWN014</name>
+    <cmt>Schnarcherklippe (Schutzhütte)</cmt>
+    <desc>Schnarcherklippe (Schutzhütte)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7815216" lon="10.6937767">
+    <ele>879.0000000</ele>
+    <name>HWN015</name>
+    <cmt>Leistenklippe</cmt>
+    <desc>Leistenklippe</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8234967" lon="10.6521028">
+    <ele>650.0000000</ele>
+    <time>2012-04-18T05:21:11Z</time>
+    <name>HWN016</name>
+    <cmt>Ferdinands Stein</cmt>
+    <desc>Ferdinands Stein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7721776" lon="10.6965632">
+    <ele>750.0000000</ele>
+    <name>HWN017</name>
+    <cmt>Trudenstein</cmt>
+    <desc>Trudenstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7518251" lon="10.6324505">
+    <ele>739.0000000</ele>
+    <name>HWN018</name>
+    <cmt>Grenzweg am Kaffeehorst</cmt>
+    <desc>Grenzweg am Kaffeehorst</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8203667" lon="10.5729833">
+    <ele>655.0000000</ele>
+    <time>2010-02-16T11:37:49Z</time>
+    <name>HWN019</name>
+    <cmt>Skidenkmal</cmt>
+    <desc>Skidenkmal</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7503211" lon="10.6750453">
+    <ele>612.0000000</ele>
+    <name>HWN020</name>
+    <cmt>Barrenberg (Aussichtspunkt)</cmt>
+    <desc>Barrenberg (Aussichtspunkt)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7540669" lon="10.6809074">
+    <ele>623.0000000</ele>
+    <name>HWN021</name>
+    <cmt>Heleneruh - Elend</cmt>
+    <desc>Heleneruh - Elend</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7910164" lon="10.6448051">
+    <ele>911.0000000</ele>
+    <name>HWN022</name>
+    <cmt>Gelber Brink</cmt>
+    <desc>Gelber Brink</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8077069" lon="10.6577926">
+    <ele>747.0000000</ele>
+    <name>HWN023</name>
+    <cmt>Molkenhausstern</cmt>
+    <desc>Molkenhausstern</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8194709" lon="10.6705170">
+    <ele>699.0000000</ele>
+    <name>HWN024</name>
+    <cmt>Wolfsklippe</cmt>
+    <desc>Wolfsklippe</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8252754" lon="10.6883964">
+    <ele>522.0000000</ele>
+    <time>2010-02-16T11:40:27Z</time>
+    <name>HWN025</name>
+    <cmt>Oberförster-Koch-Denkmal</cmt>
+    <desc>Oberförster-Koch-Denkmal</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8178253" lon="10.7078852">
+    <ele>508.0000000</ele>
+    <name>HWN026</name>
+    <cmt>Mönchsbuche</cmt>
+    <desc>Mönchsbuche</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7966890" lon="10.7119521">
+    <ele>602.0000000</ele>
+    <name>HWN027</name>
+    <cmt>Ottofelsen</cmt>
+    <desc>Ottofelsen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8049419" lon="10.6997721">
+    <ele>533.0000000</ele>
+    <time>2010-02-16T11:42:26Z</time>
+    <name>HWN028</name>
+    <cmt>Gasthaus Steinerne Renne</cmt>
+    <desc>Gasthaus Steinerne Renne</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8044443" lon="10.7347223">
+    <ele>471.0000000</ele>
+    <name>HWN029</name>
+    <cmt>Elvers
+stein</cmt>
+    <desc>Elvers
+stein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8463368" lon="10.6631266">
+    <ele>444.0000000</ele>
+    <time>2010-02-16T11:43:36Z</time>
+    <name>HWN030</name>
+    <cmt>Ilsestein</cmt>
+    <desc>Ilsestein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8300303" lon="10.7979608">
+    <ele>366.0000000</ele>
+    <time>2010-02-16T11:43:53Z</time>
+    <name>HWN031</name>
+    <cmt>Agnesberg</cmt>
+    <desc>Agnesberg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8277172" lon="10.8128995">
+    <ele>316.0000000</ele>
+    <name>HWN032</name>
+    <cmt>Gasthaus Christianental</cmt>
+    <desc>Gasthaus Christianental</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8261332" lon="10.8482500">
+    <ele>437.0000000</ele>
+    <name>HWN033</name>
+    <cmt>Stapenberg</cmt>
+    <desc>Stapenberg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8100167" lon="10.7984000">
+    <ele>463.0000000</ele>
+    <time>2010-05-08T12:22:57Z</time>
+    <name>HWN034</name>
+    <cmt>Scharfenstein</cmt>
+    <desc>Scharfenstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8154458" lon="10.7766306">
+    <ele>444.0000000</ele>
+    <name>HWN035</name>
+    <cmt>Gasthaus Armeleuteberg</cmt>
+    <desc>Gasthaus Armeleuteberg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7922222" lon="10.7802778">
+    <ele>476.0000000</ele>
+    <name>HWN036</name>
+    <cmt>Peterstein</cmt>
+    <desc>Peterstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7910390" lon="10.8184190">
+    <ele>480.0000000</ele>
+    <time>2019-05-28T11:12:16Z</time>
+    <name>HWN037</name>
+    <cmt>Büchenberg</cmt>
+    <desc>Büchenberg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Elbingerode (Harz)</gpxx:City>
+          <gpxx:State>Harz</gpxx:State>
+          <gpxx:Country>DEU</gpxx:Country>
+          <gpxx:PostalCode>38875</gpxx:PostalCode>
+        </gpxx:Address>
+        <gpxx:PhoneNumber>039454 42200</gpxx:PhoneNumber>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7737968" lon="10.8167666">
+    <ele>496.0000000</ele>
+    <time>2019-05-28T11:13:00Z</time>
+    <name>HWN038</name>
+    <cmt>Galgenberg</cmt>
+    <desc>Galgenberg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7599656" lon="10.8018373">
+    <ele>483.0000000</ele>
+    <name>HWN039</name>
+    <cmt>Tagebau Felswerke</cmt>
+    <desc>Tagebau Felswerke</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7511000" lon="10.7530666">
+    <ele>448.0000000</ele>
+    <time>2013-05-12T10:48:10Z</time>
+    <name>HWN040</name>
+    <cmt>Königshütter Wasserfall</cmt>
+    <desc>Königshütter Wasserfall</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7384135" lon="10.7671901">
+    <ele>463.0000000</ele>
+    <name>HWN041</name>
+    <cmt>Ruine Königsburg</cmt>
+    <desc>Ruine Königsburg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7355836" lon="10.8050534">
+    <ele>425.0000000</ele>
+    <name>HWN042</name>
+    <cmt>Trogfurter Brücke</cmt>
+    <desc>Trogfurter Brücke</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6186400" lon="10.5043100">
+    <ele>430.0000000</ele>
+    <time>2016-04-13T10:07:29Z</time>
+    <name>HWN043</name>
+    <cmt>Wasserscheide Weser-Elbe
+„Hohe Tür“</cmt>
+    <desc>Wasserscheide Weser-Elbe
+„Hohe Tür“</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7055931" lon="10.7408945">
+    <ele>525.0000000</ele>
+    <name>HWN044</name>
+    <cmt>Kapitelsberg</cmt>
+    <desc>Kapitelsberg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6572500" lon="10.6480667">
+    <ele>430.0000000</ele>
+    <time>2010-05-25T16:46:32Z</time>
+    <name>HWN045</name>
+    <cmt>Dicke Tannen</cmt>
+    <desc>Dicke Tannen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6936000" lon="10.6667000">
+    <ele>553.0000000</ele>
+    <time>2014-10-08T14:56:15Z</time>
+    <name>HWN046</name>
+    <cmt>Grenzmuseum (Ring der Erinnerung)</cmt>
+    <desc>Grenzmuseum (Ring der Erinnerung)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6528800" lon="10.7487100">
+    <ele>581.0000000</ele>
+    <time>2016-04-13T10:06:38Z</time>
+    <name>HWN047</name>
+    <cmt>Oberharzblick am Buchenberg</cmt>
+    <desc>Oberharzblick am Buchenberg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6411111" lon="10.7563888">
+    <ele>556.0000000</ele>
+    <time>2010-02-16T11:51:29Z</time>
+    <name>HWN048</name>
+    <cmt>Stierbergsteich</cmt>
+    <desc>Stierbergsteich</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6766016" lon="10.7553331">
+    <ele>525.0000000</ele>
+    <name>HWN049</name>
+    <cmt>Grüntal</cmt>
+    <desc>Grüntal</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6610330" lon="10.7672110">
+    <ele>525.0000000</ele>
+    <name>HWN050</name>
+    <cmt>Walzenhütte</cmt>
+    <desc>Walzenhütte</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6564075" lon="10.7970617">
+    <ele>626.0000000</ele>
+    <name>HWN051</name>
+    <cmt>Carlsturm</cmt>
+    <desc>Carlsturm</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7027527" lon="10.7912051">
+    <ele>443.0000000</ele>
+    <time>2010-02-16T11:53:26Z</time>
+    <name>HWN052</name>
+    <cmt>Trageburg</cmt>
+    <desc>Trageburg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7096833" lon="10.8311333">
+    <ele>400.0000000</ele>
+    <time>2014-12-19T13:24:15Z</time>
+    <name>HWN053</name>
+    <cmt>Hassel-Vorsperre</cmt>
+    <desc>Hassel-Vorsperre</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7291240" lon="10.8809109">
+    <ele>486.0000000</ele>
+    <name>HWN054</name>
+    <cmt>Rotestein</cmt>
+    <desc>Rotestein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6504421" lon="10.9188551">
+    <ele>506.0000000</ele>
+    <name>HWN055</name>
+    <cmt>Wüstung Sellkenfelde/Kirche</cmt>
+    <desc>Wüstung Sellkenfelde/Kirche</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7115300" lon="10.8009700">
+    <ele>445.0000000</ele>
+    <time>2016-04-13T10:09:49Z</time>
+    <name>HWN056</name>
+    <cmt>Rappbodeblick
+Trautenstein</cmt>
+    <desc>Rappbodeblick
+Trautenstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6902000" lon="10.9893300">
+    <ele>455.0000000</ele>
+    <time>2019-05-28T11:17:02Z</time>
+    <name>HWN057</name>
+    <cmt>Echowiese Allrode</cmt>
+    <desc>Echowiese Allrode</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6384098" lon="10.6305328">
+    <ele>460.0000000</ele>
+    <time>2012-04-18T05:25:57Z</time>
+    <name>HWN058</name>
+    <cmt>Pferdchen</cmt>
+    <desc>Pferdchen</desc>
+    <link href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC1MEVJ"/>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8049800" lon="10.9097700">
+    <ele>270.0000000</ele>
+    <time>2016-04-13T10:14:18Z</time>
+    <name>HWN059</name>
+    <cmt>Klostergrund Michaelstein</cmt>
+    <desc>Klostergrund Michaelstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7219526" lon="10.8961803">
+    <ele>481.0000000</ele>
+    <name>HWN060</name>
+    <cmt>Stemberghaus-Köhlerei</cmt>
+    <desc>Stemberghaus-Köhlerei</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7135500" lon="11.1795200">
+    <ele>328.0000000</ele>
+    <time>2019-05-28T11:17:47Z</time>
+    <name>HWN061</name>
+    <cmt>Harzer Grauwacke
+Riede</cmt>
+    <desc>Harzer Grauwacke
+Riede</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7432165" lon="10.9192999">
+    <ele>366.0000000</ele>
+    <name>HWN062</name>
+    <cmt>Talsperre Wendefurth (Bergseite)</cmt>
+    <desc>Talsperre Wendefurth (Bergseite)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7297752" lon="10.9230879">
+    <ele>415.0000000</ele>
+    <time>2010-02-16T11:57:55Z</time>
+    <name>HWN063</name>
+    <cmt>Schöneburg (Aussichtspunkt)</cmt>
+    <desc>Schöneburg (Aussichtspunkt)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7300325" lon="10.9495696">
+    <ele>406.0000000</ele>
+    <time>2010-02-16T11:58:25Z</time>
+    <name>HWN064</name>
+    <cmt>Böser Kleef (Aussichtspunkt)</cmt>
+    <desc>Böser Kleef (Aussichtspunkt)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7370295" lon="10.9556708">
+    <ele>431.0000000</ele>
+    <name>HWN065</name>
+    <cmt>Gasthaus Todtenrode</cmt>
+    <desc>Gasthaus Todtenrode</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7231000" lon="10.9661334">
+    <ele>301.0000000</ele>
+    <time>2011-12-08T07:47:09Z</time>
+    <name>HWN066</name>
+    <cmt>Wilhelmsblick (Aussichtspunkt)</cmt>
+    <desc>Wilhelmsblick (Aussichtspunkt)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7169165" lon="10.9780534">
+    <ele>400.0000000</ele>
+    <name>HWN067</name>
+    <cmt>Weisser Hirsch (Aussichtspunkt)</cmt>
+    <desc>Weisser Hirsch (Aussichtspunkt)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7173198" lon="11.0022257">
+    <ele>470.0000000</ele>
+    <time>2010-02-16T12:00:24Z</time>
+    <name>HWN068</name>
+    <cmt>"Pfeil"-Denkmal</cmt>
+    <desc>"Pfeil"-Denkmal</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7220000" lon="10.9701334">
+    <ele>277.0000000</ele>
+    <time>2011-12-08T07:51:30Z</time>
+    <name>HWN069</name>
+    <cmt>Sonnenklippe (Bodetal)</cmt>
+    <desc>Sonnenklippe (Bodetal)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7337167" lon="11.0074000">
+    <ele>380.0000000</ele>
+    <time>2011-12-08T07:52:35Z</time>
+    <name>HWN070</name>
+    <cmt>Prinzensicht (Aussichtspunkt)</cmt>
+    <desc>Prinzensicht (Aussichtspunkt)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7372421" lon="11.0186548">
+    <ele>394.0000000</ele>
+    <name>HWN071</name>
+    <cmt>Rosstrappe (Abzweig Schurre)</cmt>
+    <desc>Rosstrappe (Abzweig Schurre)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7305833" lon="11.0168333">
+    <ele>400.0000000</ele>
+    <time>2011-12-08T07:53:38Z</time>
+    <name>HWN072</name>
+    <cmt>La Viershöhe</cmt>
+    <desc>La Viershöhe</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7291176" lon="11.0571325">
+    <ele>408.0000000</ele>
+    <name>HWN073</name>
+    <cmt>Glockenstein</cmt>
+    <desc>Glockenstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7769018" lon="11.0011348">
+    <ele>220.0000000</ele>
+    <time>2010-02-16T12:03:56Z</time>
+    <name>HWN074</name>
+    <cmt>Hamburger Wappen (Teufelsmauer)</cmt>
+    <desc>Hamburger Wappen (Teufelsmauer)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7373876" lon="10.5658869">
+    <ele>751.0000000</ele>
+    <time>2019-05-28T11:20:02Z</time>
+    <name>HWN075</name>
+    <cmt>Hahnenkleeklippen</cmt>
+    <desc>Hahnenkleeklippen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7859791" lon="10.9671674">
+    <ele>297.0000000</ele>
+    <time>2019-05-28T11:20:26Z</time>
+    <name>HWN076</name>
+    <cmt>Großvaterfelsen</cmt>
+    <desc>Großvaterfelsen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7827469" lon="10.9542049">
+    <ele>334.0000000</ele>
+    <name>HWN077</name>
+    <cmt>Ruine Luisenburg</cmt>
+    <desc>Ruine Luisenburg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7874667" lon="10.9563500">
+    <ele>250.0000000</ele>
+    <time>2013-05-12T10:57:02Z</time>
+    <name>HWN078</name>
+    <cmt>Barocke Gärten</cmt>
+    <desc>Barocke Gärten</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7849500" lon="10.9230167">
+    <ele>417.0000000</ele>
+    <time>2010-05-08T12:01:38Z</time>
+    <name>HWN079</name>
+    <cmt>Otto-Ebert-Brücke</cmt>
+    <desc>Otto-Ebert-Brücke</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8138622" lon="10.9583552">
+    <ele>262.0000000</ele>
+    <name>HWN080</name>
+    <cmt>Burgruine Regenstein</cmt>
+    <desc>Burgruine Regenstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8172055" lon="10.9658359">
+    <ele>181.0000000</ele>
+    <name>HWN081</name>
+    <cmt>Sandhöhlen im Heers</cmt>
+    <desc>Sandhöhlen im Heers</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8165332" lon="10.9488334">
+    <ele>219.0000000</ele>
+    <name>HWN082</name>
+    <cmt>Regenstein-Mühle</cmt>
+    <desc>Regenstein-Mühle</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8377100" lon="10.8592900">
+    <ele>287.0000000</ele>
+    <time>2019-05-28T11:21:50Z</time>
+    <name>HWN083</name>
+    <cmt>Austbergturm</cmt>
+    <desc>Austbergturm</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8269262" lon="10.9113007">
+    <ele>257.0000000</ele>
+    <name>HWN084</name>
+    <cmt>Altenburg (bei Heimburg)</cmt>
+    <desc>Altenburg (bei Heimburg)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8082400" lon="10.7267900">
+    <ele>355.0000000</ele>
+    <time>2016-05-13T12:23:19Z</time>
+    <name>HWN085</name>
+    <cmt>Wasserkunst Thumkuhlental</cmt>
+    <desc>Wasserkunst Thumkuhlental</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6620000" lon="11.3416000">
+    <ele>261.0000000</ele>
+    <time>2019-05-28T11:22:54Z</time>
+    <name>HWN086</name>
+    <cmt>Bisonhehege Stangerode</cmt>
+    <desc>Bisonhehege Stangerode</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7873333" lon="10.8733167">
+    <ele>435.0000000</ele>
+    <time>2019-05-28T11:23:44Z</time>
+    <name>HWN087</name>
+    <cmt>Volkmars Keller</cmt>
+    <desc>Volkmars Keller</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7537000" lon="10.8462167">
+    <ele>422.0000000</ele>
+    <time>2010-02-16T12:12:06Z</time>
+    <name>HWN088</name>
+    <cmt>Aussichtspavillon Hoher Kleef</cmt>
+    <desc>Aussichtspavillon Hoher Kleef</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7597333" lon="10.8504667">
+    <ele>455.0000000</ele>
+    <name>HWN089</name>
+    <cmt>Schornsteinberg</cmt>
+    <desc>Schornsteinberg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6171399" lon="10.6516832">
+    <ele>463.0000000</ele>
+    <name>HWN090</name>
+    <cmt>Roter Schuss</cmt>
+    <desc>Roter Schuss</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8900833" lon="10.4190500">
+    <ele>354.0000000</ele>
+    <time>2010-02-16T12:13:16Z</time>
+    <name>HWN091</name>
+    <cmt>Rammelsberg Goslar</cmt>
+    <desc>Rammelsberg Goslar</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5881087" lon="10.8269626">
+    <ele>590.0000000</ele>
+    <time>2010-02-16T12:14:45Z</time>
+    <name>HWN092</name>
+    <cmt>Poppenberg mit Aussichtsturm</cmt>
+    <desc>Poppenberg mit Aussichtsturm</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6012666" lon="10.7925667">
+    <ele>430.0000000</ele>
+    <time>2010-02-16T12:15:52Z</time>
+    <name>HWN093</name>
+    <cmt>Dreitälerblick</cmt>
+    <desc>Dreitälerblick</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6063832" lon="10.8919333">
+    <ele>555.0000000</ele>
+    <name>HWN094</name>
+    <cmt>Dreiherrenstein (am Brandhai 48A)</cmt>
+    <desc>Dreiherrenstein (am Brandhai 48A)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5874166" lon="10.7915833">
+    <ele>460.0000000</ele>
+    <time>2010-02-16T12:16:55Z</time>
+    <name>HWN095</name>
+    <cmt>Ilfelder Wetterfahne</cmt>
+    <desc>Ilfelder Wetterfahne</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6077000" lon="10.7284500">
+    <ele>396.0000000</ele>
+    <time>2012-02-15T07:49:14Z</time>
+    <name>HWN096</name>
+    <cmt>ehemalige Steinmühle</cmt>
+    <desc>ehemalige Steinmühle</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6325883" lon="10.7909633">
+    <ele>526.0000000</ele>
+    <name>HWN097</name>
+    <cmt>Ziegenalm Sophienhof</cmt>
+    <desc>Ziegenalm Sophienhof</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5697999" lon="10.8374832">
+    <ele>352.0000000</ele>
+    <time>2010-02-16T12:18:14Z</time>
+    <name>HWN098</name>
+    <cmt>Ruine Hohnstein</cmt>
+    <desc>Ruine Hohnstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5566000" lon="10.8254600">
+    <ele>275.0000000</ele>
+    <time>2019-05-29T08:47:27Z</time>
+    <name>HWN099</name>
+    <cmt>Harzer Holzdampflok</cmt>
+    <desc>Harzer Holzdampflok</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5538166" lon="10.8797167">
+    <ele>374.0000000</ele>
+    <time>2014-10-08T14:59:52Z</time>
+    <name>HWN100</name>
+    <cmt>Ebersburg</cmt>
+    <desc>Ebersburg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6350165" lon="10.4044000">
+    <ele>370.0000000</ele>
+    <time>2010-02-16T12:19:11Z</time>
+    <name>HWN101</name>
+    <cmt>Einhornhöhle</cmt>
+    <desc>Einhornhöhle</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.9148400" lon="10.2514400">
+    <ele>565.0000000</ele>
+    <time>2016-04-13T10:28:14Z</time>
+    <name>HWN102</name>
+    <cmt>Lageswarte</cmt>
+    <desc>Lageswarte</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8803200" lon="10.2555800">
+    <ele>540.0000000</ele>
+    <time>2016-04-13T10:29:37Z</time>
+    <name>HWN103</name>
+    <cmt>Luchsstein</cmt>
+    <desc>Luchsstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8849000" lon="10.2385666">
+    <ele>537.0000000</ele>
+    <time>2014-08-20T17:49:56Z</time>
+    <name>HWN104</name>
+    <cmt>Tränkebachhütte</cmt>
+    <desc>Tränkebachhütte</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8258000" lon="10.2885832">
+    <ele>536.0000000</ele>
+    <name>HWN105</name>
+    <cmt>Prinzenlaube</cmt>
+    <desc>Prinzenlaube</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8768320" lon="10.2920470">
+    <ele>400.0000000</ele>
+    <name>HWN106</name>
+    <cmt>Schöne Aussicht, Bielstein</cmt>
+    <desc>Schöne Aussicht, Bielstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8635985" lon="10.2902365">
+    <ele>415.0000000</ele>
+    <time>2010-02-16T12:23:21Z</time>
+    <name>HWN107</name>
+    <cmt>Maaßener Gaipel</cmt>
+    <desc>Maaßener Gaipel</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.9148400" lon="10.4677500">
+    <ele>342.0000000</ele>
+    <time>2019-05-28T11:27:01Z</time>
+    <name>HWN108</name>
+    <cmt>Sudmerberger Warte</cmt>
+    <desc>Sudmerberger Warte</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.9126333" lon="10.3357167">
+    <ele>315.0000000</ele>
+    <time>2019-05-28T11:28:05Z</time>
+    <name>HWN109</name>
+    <cmt>Heimberg</cmt>
+    <desc>Heimberg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.9005822" lon="10.3822248">
+    <ele>300.0000000</ele>
+    <time>2010-02-16T12:25:07Z</time>
+    <name>HWN110</name>
+    <cmt>Granstausee</cmt>
+    <desc>Granstausee</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.9065200" lon="10.4052500">
+    <ele>456.0000000</ele>
+    <time>2019-05-28T11:31:54Z</time>
+    <name>HWN111</name>
+    <cmt>Steinbergturm
+Steinbergalm</cmt>
+    <desc>Steinbergturm
+Steinbergalm</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8606487" lon="10.3573171">
+    <ele>630.0000000</ele>
+    <time>2010-02-16T12:25:47Z</time>
+    <name>HWN112</name>
+    <cmt>Liebesbank</cmt>
+    <desc>Liebesbank</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8491832" lon="10.2993999">
+    <ele>477.0000000</ele>
+    <time>2010-02-16T12:26:24Z</time>
+    <name>HWN113</name>
+    <cmt>Grumbacher Teich</cmt>
+    <desc>Grumbacher Teich</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8884800" lon="10.4266800">
+    <ele>635.0000000</ele>
+    <time>2016-04-13T10:36:07Z</time>
+    <name>HWN114</name>
+    <cmt>Ramseck</cmt>
+    <desc>Ramseck</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6408008" lon="10.4722130">
+    <ele>523.0000000</ele>
+    <time>2012-02-21T13:44:01Z</time>
+    <name>HWN115</name>
+    <cmt>Bismarck-Turm</cmt>
+    <desc>Bismarck-Turm</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8672478" lon="10.4740782">
+    <ele>342.0000000</ele>
+    <name>HWN116</name>
+    <cmt>Verlobungsinsel in der Oker</cmt>
+    <desc>Verlobungsinsel in der Oker</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8718329" lon="10.4813900">
+    <ele>479.0000000</ele>
+    <time>2010-02-16T12:29:16Z</time>
+    <name>HWN117</name>
+    <cmt>Treppenstein</cmt>
+    <desc>Treppenstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8681243" lon="10.4846783">
+    <ele>595.0000000</ele>
+    <name>HWN118</name>
+    <cmt>Kästehaus</cmt>
+    <desc>Kästehaus</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8541166" lon="10.4678667">
+    <ele>533.0000000</ele>
+    <time>2010-02-16T12:30:17Z</time>
+    <name>HWN119</name>
+    <cmt>Hallesche Hütte an den Ahrensberger Klippen</cmt>
+    <desc>Hallesche Hütte an den Ahrensberger Klippen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8791000" lon="10.5272334">
+    <ele>444.0000000</ele>
+    <time>2010-05-08T12:25:33Z</time>
+    <name>HWN120</name>
+    <cmt>Elfenstein</cmt>
+    <desc>Elfenstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8716700" lon="10.5664700">
+    <ele>461.0000000</ele>
+    <time>2019-05-28T11:34:56Z</time>
+    <name>HWN121</name>
+    <cmt>Aussichtsreich
+Burgberg</cmt>
+    <desc>Aussichtsreich
+Burgberg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8753167" lon="10.5925833">
+    <ele>545.0000000</ele>
+    <time>2010-02-16T12:31:49Z</time>
+    <name>HWN122</name>
+    <cmt>Kreuz des deutschen Ostens</cmt>
+    <desc>Kreuz des deutschen Ostens</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7162666" lon="10.5624000">
+    <ele>488.0000000</ele>
+    <time>2014-04-09T05:59:14Z</time>
+    <name>HWN123</name>
+    <cmt>Gasttätte  Rinderstall</cmt>
+    <desc>Gasttätte  Rinderstall</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8409096" lon="10.4234715">
+    <ele>526.0000000</ele>
+    <name>HWN124</name>
+    <cmt>Köte am Heidenstieg</cmt>
+    <desc>Köte am Heidenstieg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8488211" lon="10.3822879">
+    <ele>750.0000000</ele>
+    <time>2010-02-16T12:33:36Z</time>
+    <name>HWN125</name>
+    <cmt>Schalker Turm</cmt>
+    <desc>Schalker Turm</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8370200" lon="10.3798100">
+    <ele>609.0000000</ele>
+    <time>2019-05-28T11:35:41Z</time>
+    <name>HWN126</name>
+    <cmt>Lochstein, Oberer
+Schalker Graben</cmt>
+    <desc>Lochstein, Oberer
+Schalker Graben</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7979115" lon="10.3888812">
+    <ele>592.0000000</ele>
+    <time>2011-05-19T06:59:14Z</time>
+    <name>HWN127</name>
+    <cmt>Weppner Hütte, Jägersbleeker Teich</cmt>
+    <desc>Weppner Hütte, Jägersbleeker Teich</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7857300" lon="10.3774300">
+    <ele>598.0000000</ele>
+    <time>2019-05-28T11:36:41Z</time>
+    <name>HWN128</name>
+    <cmt>Huttaler Widerwaage</cmt>
+    <desc>Huttaler Widerwaage</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8192600" lon="10.2250300">
+    <ele>392.0000000</ele>
+    <time>2016-04-13T10:40:54Z</time>
+    <name>HWN129</name>
+    <cmt>Hütte im Weltwald</cmt>
+    <desc>Hütte im Weltwald</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8198705" lon="10.2452016">
+    <ele>555.0000000</ele>
+    <time>2010-02-16T12:38:55Z</time>
+    <name>HWN130</name>
+    <cmt>Iberger Albert-Turm</cmt>
+    <desc>Iberger Albert-Turm</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7920833" lon="10.2757333">
+    <ele>570.0000000</ele>
+    <time>2010-02-16T12:39:19Z</time>
+    <name>HWN131</name>
+    <cmt>Kaysereiche (Schutzhütte)</cmt>
+    <desc>Kaysereiche (Schutzhütte)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8059444" lon="10.4455833">
+    <ele>542.0000000</ele>
+    <time>2012-11-01T10:07:13Z</time>
+    <name>HWN132</name>
+    <cmt>Schwarzenberg, Hütte Brockenblick</cmt>
+    <desc>Schwarzenberg, Hütte Brockenblick</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8034667" lon="10.4878333">
+    <ele>621.0000000</ele>
+    <time>2011-05-20T14:56:59Z</time>
+    <name>HWN133</name>
+    <cmt>Förster-Ludwig-Platz</cmt>
+    <desc>Förster-Ludwig-Platz</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7854400" lon="10.4675400">
+    <ele>715.0000000</ele>
+    <time>2019-05-28T11:38:27Z</time>
+    <name>HWN134</name>
+    <cmt>Gustav-Baumann-Weg</cmt>
+    <desc>Gustav-Baumann-Weg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7902400" lon="10.5036400">
+    <ele>895.0000000</ele>
+    <time>2019-05-28T11:39:13Z</time>
+    <name>HWN135</name>
+    <cmt>Wolfswarte</cmt>
+    <desc>Wolfswarte</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7877167" lon="10.5864166">
+    <ele>899.0000000</ele>
+    <time>2010-08-29T16:36:31Z</time>
+    <name>HWN136</name>
+    <cmt>Eckersprung</cmt>
+    <desc>Eckersprung</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7760600" lon="10.3510000">
+    <ele>561.0000000</ele>
+    <time>2011-05-19T07:10:21Z</time>
+    <name>HWN137</name>
+    <cmt>Bärenbruchner Teich</cmt>
+    <desc>Bärenbruchner Teich</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7667667" lon="10.3552333">
+    <ele>611.0000000</ele>
+    <time>2011-12-08T18:29:44Z</time>
+    <name>HWN138</name>
+    <cmt>Braunseck</cmt>
+    <desc>Braunseck</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7663166" lon="10.3138334">
+    <ele>561.0000000</ele>
+    <time>2011-12-08T18:34:34Z</time>
+    <name>HWN139</name>
+    <cmt>Kuckholzklippe</cmt>
+    <desc>Kuckholzklippe</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7462044" lon="10.3014774">
+    <ele>470.0000000</ele>
+    <name>HWN140</name>
+    <cmt>Eselplatz</cmt>
+    <desc>Eselplatz</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7847500" lon="10.2861830">
+    <ele>561.0000000</ele>
+    <time>2020-05-04T06:54:14Z</time>
+    <name>HWN141</name>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8950400" lon="10.2790400">
+    <ele>350.0000000</ele>
+    <time>2016-04-13T10:51:15Z</time>
+    <name>HWN142</name>
+    <cmt>Mandolinenhütte</cmt>
+    <desc>Mandolinenhütte</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7232203" lon="10.3362620">
+    <ele>540.0000000</ele>
+    <time>2010-02-16T12:44:27Z</time>
+    <name>HWN143</name>
+    <cmt>Köte Schindelkopf</cmt>
+    <desc>Köte Schindelkopf</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7281389" lon="10.4033611">
+    <ele>801.0000000</ele>
+    <time>2014-01-01T18:30:18Z</time>
+    <name>HWN144</name>
+    <cmt>Hanskühnenburg</cmt>
+    <desc>Hanskühnenburg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7771000" lon="10.3878333">
+    <ele>600.0000000</ele>
+    <time>2014-09-09T06:13:38Z</time>
+    <name>HWN145</name>
+    <cmt>Schmidts-Denkmal</cmt>
+    <desc>Schmidts-Denkmal</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7626000" lon="10.4457333">
+    <ele>610.0000000</ele>
+    <time>2011-12-08T18:39:46Z</time>
+    <name>HWN146</name>
+    <cmt>Großes Wehr
+Morgenbrodstal</cmt>
+    <desc>Großes Wehr
+Morgenbrodstal</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7538200" lon="10.3983400">
+    <ele>530.0000000</ele>
+    <time>2016-04-13T11:03:12Z</time>
+    <name>HWN147</name>
+    <cmt>Eleonorenblick</cmt>
+    <desc>Eleonorenblick</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7231100" lon="10.5818800">
+    <ele>620.0000000</ele>
+    <time>2016-04-13T11:04:50Z</time>
+    <name>HWN148</name>
+    <cmt>Naturmythenpfad</cmt>
+    <desc>Naturmythenpfad</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7951333" lon="10.4756666">
+    <ele>600.0000000</ele>
+    <time>2012-04-18T05:33:42Z</time>
+    <name>HWN149</name>
+    <cmt>Kleine Oker</cmt>
+    <desc>Kleine Oker</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6673999" lon="10.4301166">
+    <ele>668.0000000</ele>
+    <time>2010-02-16T12:47:48Z</time>
+    <name>HWN150</name>
+    <cmt>Großer Knollen</cmt>
+    <desc>Großer Knollen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6288500" lon="10.4089332">
+    <ele>372.0000000</ele>
+    <time>2010-02-16T12:48:10Z</time>
+    <name>HWN151</name>
+    <cmt>Ruine Scharzfels</cmt>
+    <desc>Ruine Scharzfels</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6434167" lon="10.4425999">
+    <ele>479.0000000</ele>
+    <time>2010-02-16T12:48:47Z</time>
+    <name>HWN152</name>
+    <cmt>Knollenkreuz</cmt>
+    <desc>Knollenkreuz</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6884000" lon="10.4720500">
+    <ele>600.0000000</ele>
+    <time>2016-04-13T11:08:08Z</time>
+    <name>HWN153</name>
+    <cmt>Goedeckenplatz</cmt>
+    <desc>Goedeckenplatz</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7322373" lon="10.5113626">
+    <ele>670.0000000</ele>
+    <time>2010-02-16T12:49:35Z</time>
+    <name>HWN154</name>
+    <cmt>Dreibrodesteine</cmt>
+    <desc>Dreibrodesteine</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7292500" lon="10.5380666">
+    <ele>684.0000000</ele>
+    <time>2012-08-15T06:22:08Z</time>
+    <name>HWN155</name>
+    <cmt>Rehberger Grabenhaus</cmt>
+    <desc>Rehberger Grabenhaus</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7564333" lon="10.6186834">
+    <ele>972.0000000</ele>
+    <time>2011-05-20T14:50:42Z</time>
+    <name>HWN156</name>
+    <cmt>Wurmberg-Baude</cmt>
+    <desc>Wurmberg-Baude</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6907139" lon="10.5957357">
+    <ele>590.0000000</ele>
+    <time>2010-02-16T12:50:59Z</time>
+    <name>HWN157</name>
+    <cmt>Kapellenfleck</cmt>
+    <desc>Kapellenfleck</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6382863" lon="10.5249516">
+    <ele>560.0000000</ele>
+    <time>2010-02-16T12:51:38Z</time>
+    <name>HWN158</name>
+    <cmt>Hassenstein</cmt>
+    <desc>Hassenstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6565319" lon="10.5540825">
+    <ele>705.0000000</ele>
+    <time>2019-05-28T11:59:20Z</time>
+    <name>HWN159</name>
+    <cmt>Stöberhai</cmt>
+    <desc>Stöberhai</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6422562" lon="10.6107670">
+    <ele>549.0000000</ele>
+    <name>HWN160</name>
+    <cmt>Helenenruh</cmt>
+    <desc>Helenenruh</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6309197" lon="10.5427079">
+    <ele>625.0000000</ele>
+    <name>HWN161</name>
+    <cmt>Stefanshütte</cmt>
+    <desc>Stefanshütte</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6281900" lon="10.5848700">
+    <ele>380.0000000</ele>
+    <time>2016-04-13T13:48:14Z</time>
+    <name>HWN162</name>
+    <cmt>Kreuztalsklippe</cmt>
+    <desc>Kreuztalsklippe</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6329997" lon="10.6040550">
+    <ele>580.0000000</ele>
+    <name>HWN163</name>
+    <cmt>Berner Klippen</cmt>
+    <desc>Berner Klippen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6230990" lon="10.6432576">
+    <ele>456.0000000</ele>
+    <name>HWN164</name>
+    <cmt>Stiefmutter</cmt>
+    <desc>Stiefmutter</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6245435" lon="10.6570889">
+    <ele>561.0000000</ele>
+    <name>HWN165</name>
+    <cmt>Wendel-Eiche</cmt>
+    <desc>Wendel-Eiche</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5807300" lon="10.5838500">
+    <ele>326.0000000</ele>
+    <time>2016-04-13T11:19:08Z</time>
+    <name>HWN166</name>
+    <cmt>Sachsensteinhütte</cmt>
+    <desc>Sachsensteinhütte</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5810700" lon="10.6459100">
+    <ele>303.0000000</ele>
+    <time>2019-05-28T11:44:57Z</time>
+    <name>HWN167</name>
+    <cmt>Hexentanzplatz Walkenried, Ellricher Blick</cmt>
+    <desc>Hexentanzplatz Walkenried, Ellricher Blick</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7813333" lon="10.5805500">
+    <ele>878.0000000</ele>
+    <time>2012-08-15T06:22:57Z</time>
+    <name>HWN168</name>
+    <cmt>Dreieckiger Pfahl</cmt>
+    <desc>Dreieckiger Pfahl</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8556833" lon="10.5730999">
+    <ele>532.0000000</ele>
+    <name>HWN169</name>
+    <cmt>Molkenhaus</cmt>
+    <desc>Molkenhaus</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8650167" lon="10.6053166">
+    <ele>531.0000000</ele>
+    <time>2010-02-16T12:55:00Z</time>
+    <name>HWN170</name>
+    <cmt>Rabenklippe</cmt>
+    <desc>Rabenklippe</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8883700" lon="10.3318900">
+    <ele>490.0000000</ele>
+    <time>2019-05-28T11:49:00Z</time>
+    <name>HWN171</name>
+    <cmt>Altarklippe (oberhalb d. Granestausees)</cmt>
+    <desc>Altarklippe (oberhalb d. Granestausees)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6370333" lon="10.9683833">
+    <ele>432.0000000</ele>
+    <name>HWN172</name>
+    <cmt>Katzsohlteich</cmt>
+    <desc>Katzsohlteich</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6376900" lon="11.0227400">
+    <ele>416.0000000</ele>
+    <time>2016-04-13T13:50:52Z</time>
+    <name>HWN173</name>
+    <cmt>Waldwiese Hirschbüchenkopf</cmt>
+    <desc>Waldwiese Hirschbüchenkopf</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7753630" lon="10.7192010">
+    <ele>418.0000000</ele>
+    <time>2012-05-07T04:34:54Z</time>
+    <name>HWN174</name>
+    <cmt>Hohnehof</cmt>
+    <desc>Hohnehof</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6118500" lon="11.0651000">
+    <ele>371.0000000</ele>
+    <time>2016-04-13T16:25:47Z</time>
+    <name>HWN175</name>
+    <cmt>Schaubergwerk Glasebach Stollen</cmt>
+    <desc>Schaubergwerk Glasebach Stollen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6321790" lon="11.0829550">
+    <ele>361.0000000</ele>
+    <time>2010-02-16T12:57:03Z</time>
+    <name>HWN176</name>
+    <cmt>Uhlenköpfe Hänichen</cmt>
+    <desc>Uhlenköpfe Hänichen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6463500" lon="11.1147833">
+    <ele>333.0000000</ele>
+    <time>2010-02-16T12:57:23Z</time>
+    <name>HWN177</name>
+    <cmt>Verlobungsurne Alexisbad</cmt>
+    <desc>Verlobungsurne Alexisbad</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7336333" lon="11.0177500">
+    <ele>272.0000000</ele>
+    <time>2010-02-16T12:59:26Z</time>
+    <name>HWN178</name>
+    <cmt>Hirschgrund (am Gasthaus Königsruh)</cmt>
+    <desc>Hirschgrund (am Gasthaus Königsruh)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6685710" lon="11.1658099">
+    <ele>258.0000000</ele>
+    <name>HWN179</name>
+    <cmt>IV. Friedrichshammer</cmt>
+    <desc>IV. Friedrichshammer</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7073800" lon="11.2554600">
+    <ele>245.0000000</ele>
+    <time>2016-04-13T16:27:16Z</time>
+    <name>HWN180</name>
+    <cmt>Alter Kohlenschacht</cmt>
+    <desc>Alter Kohlenschacht</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7161100" lon="11.2100000">
+    <ele>254.0000000</ele>
+    <time>2016-04-13T16:30:55Z</time>
+    <name>HWN181</name>
+    <cmt>Forstmeister
+Tannen</cmt>
+    <desc>Forstmeister
+Tannen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6914100" lon="11.1825300">
+    <ele>370.0000000</ele>
+    <time>2010-02-16T13:00:35Z</time>
+    <name>HWN182</name>
+    <cmt>Schirm Ballenstedt</cmt>
+    <desc>Schirm Ballenstedt</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7176860" lon="11.1308999">
+    <ele>295.0000000</ele>
+    <time>2010-02-16T13:00:55Z</time>
+    <name>HWN183</name>
+    <cmt>Försterblick Gernrode</cmt>
+    <desc>Försterblick Gernrode</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6822186" lon="11.0958856">
+    <ele>466.0000000</ele>
+    <time>2010-02-16T13:01:12Z</time>
+    <name>HWN184</name>
+    <cmt>Bärendenkmal</cmt>
+    <desc>Bärendenkmal</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7237800" lon="11.1191700">
+    <ele>268.0000000</ele>
+    <time>2010-02-16T13:01:29Z</time>
+    <name>HWN185</name>
+    <cmt>Preußenturm</cmt>
+    <desc>Preußenturm</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7163429" lon="11.1055779">
+    <ele>367.0000000</ele>
+    <time>2010-02-16T13:01:53Z</time>
+    <name>HWN186</name>
+    <cmt>Anhaltinischer Salstein</cmt>
+    <desc>Anhaltinischer Salstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7263180" lon="11.0807130">
+    <ele>330.0000000</ele>
+    <time>2010-02-16T13:02:43Z</time>
+    <name>HWN187</name>
+    <cmt>Lauenburg</cmt>
+    <desc>Lauenburg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7560306" lon="11.0873374">
+    <ele>141.0000000</ele>
+    <name>HWN188</name>
+    <cmt>Teufelsmauer Weddersleben</cmt>
+    <desc>Teufelsmauer Weddersleben</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6848834" lon="11.0792833">
+    <ele>556.0000000</ele>
+    <time>2010-02-16T13:03:09Z</time>
+    <name>HWN189</name>
+    <cmt>Große Teufelsmühle</cmt>
+    <desc>Große Teufelsmühle</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6794833" lon="11.0650000">
+    <ele>490.0000000</ele>
+    <time>2010-02-16T13:03:28Z</time>
+    <name>HWN190</name>
+    <cmt>Bergrat-Müller-Teich</cmt>
+    <desc>Bergrat-Müller-Teich</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6723832" lon="11.0364999">
+    <ele>431.0000000</ele>
+    <time>2010-02-16T13:03:43Z</time>
+    <name>HWN191</name>
+    <cmt>Laubtalblick</cmt>
+    <desc>Laubtalblick</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5768857" lon="10.5752380">
+    <ele>272.0000000</ele>
+    <time>2012-02-21T14:05:27Z</time>
+    <name>HWN192</name>
+    <cmt>Historischer Gipsbrennofen</cmt>
+    <desc>Historischer Gipsbrennofen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6079500" lon="11.1367167">
+    <ele>417.0000000</ele>
+    <time>2010-02-16T13:04:32Z</time>
+    <name>HWN193</name>
+    <cmt>Stahlquelle</cmt>
+    <desc>Stahlquelle</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6179146" lon="11.0813299">
+    <ele>350.0000000</ele>
+    <time>2010-02-16T13:37:28Z</time>
+    <name>HWN194</name>
+    <cmt>Hellergrund</cmt>
+    <desc>Hellergrund</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6609000" lon="11.1262670">
+    <ele>380.0000000</ele>
+    <time>2010-02-16T13:37:46Z</time>
+    <name>HWN195</name>
+    <cmt>Köthener Hütte</cmt>
+    <desc>Köthener Hütte</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6849332" lon="11.1123166">
+    <ele>416.0000000</ele>
+    <time>2010-02-16T13:38:10Z</time>
+    <name>HWN196</name>
+    <cmt>Bremer Teich</cmt>
+    <desc>Bremer Teich</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6680675" lon="11.1931794">
+    <ele>378.0000000</ele>
+    <time>2010-02-16T13:38:32Z</time>
+    <name>HWN197</name>
+    <cmt>Burgruine Anhalt</cmt>
+    <desc>Burgruine Anhalt</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5176833" lon="10.8580500">
+    <ele>306.0000000</ele>
+    <time>2012-02-24T08:49:07Z</time>
+    <name>HWN198</name>
+    <cmt>Glockensteine</cmt>
+    <desc>Glockensteine</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7142489" lon="11.2587930">
+    <ele>245.0000000</ele>
+    <time>2010-02-16T13:39:25Z</time>
+    <name>HWN199</name>
+    <cmt>Bismarckturm</cmt>
+    <desc>Bismarckturm</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6817999" lon="11.2659499">
+    <ele>296.0000000</ele>
+    <time>2010-02-16T13:40:03Z</time>
+    <name>HWN200</name>
+    <cmt>Burg Falkenstein</cmt>
+    <desc>Burg Falkenstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7140166" lon="11.3477999">
+    <ele>225.0000000</ele>
+    <name>HWN201</name>
+    <cmt>Konradsburg</cmt>
+    <desc>Konradsburg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6854000" lon="11.3076800">
+    <ele>310.0000000</ele>
+    <time>2019-05-28T11:58:52Z</time>
+    <name>HWN202</name>
+    <cmt>Landschaftspark Degenerhausen</cmt>
+    <desc>Landschaftspark Degenerhausen</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6791166" lon="11.2325665">
+    <ele>216.0000000</ele>
+    <time>2010-02-16T13:42:01Z</time>
+    <name>HWN203</name>
+    <cmt>Schutzhütte am Mettenberg</cmt>
+    <desc>Schutzhütte am Mettenberg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6854667" lon="11.2544334">
+    <ele>297.0000000</ele>
+    <time>2010-02-16T13:42:20Z</time>
+    <name>HWN204</name>
+    <cmt>Selkesicht an der Ackeburg</cmt>
+    <desc>Selkesicht an der Ackeburg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6634242" lon="11.3063072">
+    <ele>260.0000000</ele>
+    <time>2012-04-18T05:16:03Z</time>
+    <name>HWN205</name>
+    <cmt>Rastplatz unterhalb des Cluesberges</cmt>
+    <desc>Rastplatz unterhalb des Cluesberges</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6753833" lon="10.6415832">
+    <ele>600.0000000</ele>
+    <time>2010-02-16T13:43:01Z</time>
+    <name>HWN206</name>
+    <cmt>Hahnstein</cmt>
+    <desc>Hahnstein</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7006999" lon="11.2833799">
+    <ele>199.0000000</ele>
+    <time>2010-02-16T13:43:24Z</time>
+    <name>HWN207</name>
+    <cmt>Mausoleum</cmt>
+    <desc>Mausoleum</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5345000" lon="11.3144333">
+    <ele>307.0000000</ele>
+    <time>2010-02-16T13:43:46Z</time>
+    <name>HWN208</name>
+    <cmt>Burgruine Grillenburg</cmt>
+    <desc>Burgruine Grillenburg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.4930834" lon="11.2709999">
+    <ele>294.0000000</ele>
+    <time>2010-02-16T13:44:10Z</time>
+    <name>HWN209</name>
+    <cmt>Moltkewarte (Aussichtsturm)</cmt>
+    <desc>Moltkewarte (Aussichtsturm)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5013300" lon="11.1418300">
+    <ele>325.0000000</ele>
+    <time>2016-04-13T16:34:51Z</time>
+    <name>HWN210</name>
+    <cmt>Schöne Aussicht Hainrode</cmt>
+    <desc>Schöne Aussicht Hainrode</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6075800" lon="11.0149500">
+    <ele>450.0000000</ele>
+    <time>2016-04-13T17:04:35Z</time>
+    <name>HWN211</name>
+    <cmt>Kiliansteiche</cmt>
+    <desc>Kiliansteiche</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.4932666" lon="11.1172000">
+    <ele>244.0000000</ele>
+    <time>2010-02-16T13:45:14Z</time>
+    <name>HWN212</name>
+    <cmt>An der Queste</cmt>
+    <desc>An der Queste</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.4889700" lon="11.0779400">
+    <ele>258.0000000</ele>
+    <time>2016-04-13T17:12:09Z</time>
+    <name>HWN213</name>
+    <cmt>Bauerngraben
+Schautafel RVH</cmt>
+    <desc>Bauerngraben
+Schautafel RVH</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.4977800" lon="10.9477700">
+    <ele>270.0000000</ele>
+    <time>2016-04-13T17:14:18Z</time>
+    <name>HWN214</name>
+    <cmt>Reesbergdoline</cmt>
+    <desc>Reesbergdoline</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5806143" lon="11.0055309">
+    <ele>564.0000000</ele>
+    <time>2010-02-16T13:46:21Z</time>
+    <name>HWN215</name>
+    <cmt>Josephshöhe (Auerberg)</cmt>
+    <desc>Josephshöhe (Auerberg)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5718000" lon="10.9527100">
+    <ele>330.0000000</ele>
+    <time>2019-05-28T11:56:38Z</time>
+    <name>HWN216</name>
+    <cmt>Lutherbuche</cmt>
+    <desc>Lutherbuche</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.7794400" lon="10.5324800">
+    <ele>740.0000000</ele>
+    <time>2016-04-13T17:17:08Z</time>
+    <name>HWN217</name>
+    <cmt>Sonnenkappe
+Oderteich (NPH)</cmt>
+    <desc>Sonnenkappe
+Oderteich (NPH)</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5788833" lon="10.8633333">
+    <ele>460.0000000</ele>
+    <time>2010-02-16T13:47:49Z</time>
+    <name>HWN218</name>
+    <cmt>Neustädter Talsperre</cmt>
+    <desc>Neustädter Talsperre</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5695600" lon="11.1926600">
+    <ele>300.0000000</ele>
+    <time>2019-05-28T11:57:24Z</time>
+    <name>HWN219</name>
+    <cmt>Wippertalsperre Bank am Rundweg</cmt>
+    <desc>Wippertalsperre Bank am Rundweg</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.6097333" lon="10.5311833">
+    <ele>464.0000000</ele>
+    <time>2010-02-16T13:48:24Z</time>
+    <name>HWN220</name>
+    <cmt>Phillippsgruß</cmt>
+    <desc>Phillippsgruß</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.8042000" lon="10.5138167">
+    <ele>650.0000000</ele>
+    <time>2012-04-18T05:46:29Z</time>
+    <name>HWN221</name>
+    <cmt>Jungfernklippe</cmt>
+    <desc>Jungfernklippe</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.5203800" lon="11.2769400">
+    <ele>343.0000000</ele>
+    <time>2019-05-28T11:58:14Z</time>
+    <name>HWN222</name>
+    <cmt>Bergbaulehrpfad Wettelrode</cmt>
+    <desc>Bergbaulehrpfad Wettelrode</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+</gpx>
