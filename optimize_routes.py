@@ -74,7 +74,7 @@ def create_population(G):
         
 
 def prepare_graph():
-    limit = 20
+    limit = 10
     with open(hwn_file_name, encoding="utf-8") as fd:
         doc = xmltodict.parse(fd.read())
         
@@ -122,6 +122,21 @@ def evaluate_population(G, population):
     fitness = total_derivation_km*total_len_tours  #+ total_len_tours
     return fitness
     
+def evolution_step(population):
+    # arbitrary positions changing
+    """
+    affected_tour_index = random.randint(0, len(population)-1)
+    from_index = random.randint(0, len(population[affected_tour_index])-1)
+    to_index = random.randint(0, len(population[affected_tour_index])-1)
+    population[affected_tour_index][from_index], population[affected_tour_index][to_index] = population[affected_tour_index][to_index], population[affected_tour_index][from_index]
+    """
+    affected_tour_index = random.randint(0, len(population)-1)
+    affected_index = random.randint(0, len(population[affected_tour_index])-1)
+    other_index = (affected_index+1) % len(population[affected_tour_index])
+    population[affected_tour_index][affected_index], population[affected_tour_index][other_index] = population[affected_tour_index][other_index], population[affected_tour_index][affected_index]
+    
+    return population
+    
 G = prepare_graph()
 #tour = create_random_tour(G)
 #tour_length = eval_tour(G, tour)
@@ -144,4 +159,11 @@ for i in range(50):
 print("RESULTS:") 
 print("pop=",best_population)           
 print("fitness=",best_value)
+
+population = evolution_step(best_population)
+
+fitness = evaluate_population(G, population)
+
+print("pop=",population)           
+print("fitness=",fitness)
 # draw_graph(G)
