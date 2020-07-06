@@ -11,7 +11,7 @@ import math
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
-
+import draw_hwn_map
 
 hwn_file_name = os.path.join("hwn_gpx", "HWN_2020_05_01.gpx")
 done_stamps_folder = "stamps"
@@ -260,6 +260,12 @@ def pretty_print_population(G, population):
     print("fitness_after = ", evaluate_population(G, population))
     for t in population:
         print(" length=", eval_tour(G, t), "t=",t)
+    
+def get_routes(population):
+    route_list = []
+    for t in population:
+        route_list.append(t)
+    return route_list
 
 def is_valid_solution(G, population):
     # perfect_tour_length = 15.0
@@ -271,7 +277,7 @@ def is_valid_solution(G, population):
     return imperfect_tours
     
 
-G = prepare_graph(filter=get_visited_dict(), limit=100)
+G = prepare_graph(filter=get_visited_dict(), limit=222)
 #tour = create_random_tour(G)
 #tour_length = eval_tour(G, tour)
 #print("tour=",tour)
@@ -300,7 +306,7 @@ for i in range(2000):
 """
 best_population_list = []
 cnt = 0
-for k in range(10):
+for k in range(1):
     while True:
         best_value = None
         best_population = None
@@ -340,12 +346,23 @@ for k in range(10):
             print("I [{}]: {}".format(cnt, best_value))
     best_population_list.append(best_population)
     
+    
+best_population = None
+best_value = None
 for p in best_population_list:
-    #if best_population:        
-    print("RESULTS:")           
-    pretty_print_population(G, p)
-    #else:
-    #print("No Solution") 
+    fitness = evaluate_population(G, p)
+    if not best_population:
+        best_population = p
+        best_value = fitness
+    else:
+        if fitness < best_value:
+            best_population = p
+            best_value = fitness
+    
+print("RESULTS:")           
+pretty_print_population(G, best_population)
+
+draw_hwn_map.draw_map(get_routes(best_population))
     
 '''
 fig, ax = plt.subplots()
