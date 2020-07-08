@@ -12,6 +12,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import draw_hwn_map
+from copy import deepcopy
 
 hwn_file_name = os.path.join("hwn_gpx", "HWN_2020_05_01.gpx")
 done_stamps_folder = "stamps"
@@ -55,7 +56,8 @@ def eval_tour(G, tour):
     for i in range(len(tour)):
         from_node = tour[i]
         to_node = tour[(i+1) % len(tour)]
-        # print("{} -- {}".format( tour[i], tour[(i+1) % len(tour)]))
+        if from_node == to_node:
+            print("WARNING: Inconsistent tour:", tour)
         if from_node < to_node:
             tour_length += G.edges[from_node, to_node]['weight']
         else:
@@ -212,10 +214,9 @@ def crossover(G, population):
         p_new.append(new_tour)
     return p_new
   
-def evolution_step(population):
+def evolution_step(old_population):
+    population = deepcopy(old_population)
     r = random.randint(0, 7) # both inclusive
-    #r = 7
-    #print("r=",r)
     if r == 0:
         # arbitrary positions changing
         affected_tour_index = random.randint(0, len(population)-1)
@@ -233,8 +234,12 @@ def evolution_step(population):
         # switch between tours
         tour_index_1 = random.randint(0, len(population)-1)
         tour_index_2 = random.randint(0, len(population)-1)
+        if tour_index_1 == tour_index_2:
+            return population
         element_index_1 = random.randint(0, len(population[tour_index_1])-1)
         element_index_2 = random.randint(0, len(population[tour_index_2])-1)
+        if element_index_1 == element_index_2:
+            return population
         population[tour_index_1][element_index_1], population[tour_index_2][element_index_2] = population[tour_index_2][element_index_2], population[tour_index_1][element_index_1]
     elif 6 <= r <= 6:
         # split tour
@@ -289,21 +294,6 @@ best_population = None
 fitness_list = []
 indices_list = []
 
-"""
-for i in range(2000):
-    population = create_population(G)
-    fitness = evaluate_population(G, population)
-    #if check_contraints(G, population):
-    if not best_population:
-        best_population = population
-        best_value = fitness
-    else:
-        if fitness < best_value:
-            best_population = population
-            best_value = fitness
-    # indices_list.append(i)
-    # fitness_list.append(best_value)
-"""
 best_population_list = []
 cnt = 0
 for k in range(1):
