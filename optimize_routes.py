@@ -190,14 +190,10 @@ def crossover(G, population):
     p_new = p[0:crossover_index]
     p_reorder = p[crossover_index:]
     
-    #print("p_new=", p_new)
-    #print("p_reorder=", p_reorder)
-    
     to_be_chosen = []
     for p in p_reorder:
         to_be_chosen.extend(p)
-        
-    #print("to_be_chosen=", to_be_chosen)
+
     while len(to_be_chosen) > 0:
         random_length = random.randint(1, min(5, len(to_be_chosen)))
         new_tour = []
@@ -205,7 +201,6 @@ def crossover(G, population):
             random_idx = random.randint(0, len(to_be_chosen)-1)
             new_tour.append(to_be_chosen[random_idx])
             del to_be_chosen[random_idx]
-        #print("new_tour=", new_tour)
         """new_tour = to_be_chosen[:random_length]
         print("new_tour=", new_tour)
         for i in range(random_length):
@@ -296,20 +291,18 @@ indices_list = []
 
 best_population_list = []
 cnt = 0
-for k in range(1):
+mutation_probability = 0.25
+
+for k in range(2):
     while True:
         best_value = None
         best_population = None
         population = create_population(G)
-        print("fitness_START=",evaluate_population(G, population))
-        print("pop_START", population)
         for i in range(10000):
             fitness = evaluate_population(G, population)
-            
-            #if i % 2 == 0:
             new_population = crossover(G, population)
-            #else:
-            #    new_population = evolution_step(population)
+            if random.random() > mutation_probability:
+                new_population = evolution_step(new_population)
             fitness_after = evaluate_population(G, new_population)
             # print("old:", population)
             #print("new:", new_population)
@@ -329,7 +322,9 @@ for k in range(1):
         cnt += 1
         invalid_tours = is_valid_solution(G, best_population)
         if invalid_tours == 0:
-            print()
+            print("*"*20)
+            print("Valid Solution found")
+            print("*"*20)
             break
         else:
             print("Invalid Solution ({} invalid tours)".format(invalid_tours))
