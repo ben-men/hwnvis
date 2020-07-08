@@ -171,7 +171,14 @@ def evaluate_population(G, population):
     
     return sum_fitness #/ len(population)
   
-  
+
+def sort_valid_solution(G, route):
+    # perfect_tour_length = 15.0
+    length = eval_tour(G, route)
+    if length < perfect_tour_length*0.5 or length > perfect_tour_length*1.5:
+        return 1
+    return 0
+    
 def route_fitness(G, route):
     #perfect_length = 15.0 # direct distances!
     # perfect_stops = 4
@@ -179,13 +186,22 @@ def route_fitness(G, route):
     return eval_tour(G, route) / len(route) + (abs(perfect_tour_length - eval_tour(G, route)))
     
 def crossover(G, population):
-    p = sorted(population, key=lambda x: route_fitness(G, x))
-    #print("p=", p)
-    # for t in p:
-    #    print(" length=", eval_tour(G, t), "t=",t)
-        
-    # now p is sorted
+    p = sorted(population, key=lambda x: sort_valid_solution(G, x))
+    # p = sorted(population, key=lambda x: route_fitness(G, x))
+    
     crossover_index = random.randint(0, len(population)-1)
+    for i, t in enumerate(p):
+        is_valid = sort_valid_solution(G, t)
+        #print("  ", t , " valid=", is_valid, " len=", eval_tour(G, t))
+        if is_valid == 1 and i>0:
+            crossover_index = i-1 # 
+            break
+    #print("sorted=",p )
+    
+    
+    # now p is sorted
+    # crossover_index = random.randint(0, len(population)-1)
+    
     #print("crossover at idx:", crossover_index)
     p_new = p[0:crossover_index]
     p_reorder = p[crossover_index:]
