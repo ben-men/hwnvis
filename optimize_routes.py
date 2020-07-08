@@ -13,10 +13,17 @@ import matplotlib.pyplot as plt
 import numpy as np
 import draw_hwn_map
 from copy import deepcopy
+import json
 
 hwn_file_name = os.path.join("hwn_gpx", "HWN_2020_05_01.gpx")
 done_stamps_folder = "stamps"
+
 perfect_tour_length = 15.0
+mutation_probability = 0.25
+num_result_populations = 2
+num_generations = 10000
+single_stamp_tour_length = 20.0 # magic!
+upper_stamp_number_limit = 100 # None for no limit
 
 def get_visited_dict():
     files = os.listdir(done_stamps_folder)
@@ -51,7 +58,7 @@ def haversine(lon1, lat1, lon2, lat2):
 
 def eval_tour(G, tour):
     if len(tour) <= 1:
-        return 20.0 # magic!
+        return single_stamp_tour_length
     tour_length = 0.0
     for i in range(len(tour)):
         from_node = tour[i]
@@ -93,7 +100,6 @@ def create_population(G):
             if len(to_be_chosen) == 0:
                 break
         population.append(new_tour)
-    # print("population=", population)
     return population
         
 
@@ -272,8 +278,16 @@ def evolution_step(old_population):
         
     return population
     
+def real_route_length(G, population):
+    sum_length = 0.0
+    for t in population:
+        sum_length += eval_tour(G, t)
+    
+    return sum_length 
+    
 def pretty_print_population(G, population):
     print("fitness_after = ", evaluate_population(G, population))
+    print("real length: {}km".format(real_route_length(G, population)))
     for t in population:
         print(" length=", eval_tour(G, t), "t=",t)
     
@@ -284,7 +298,6 @@ def get_routes(population):
     return route_list
 
 def is_valid_solution(G, population):
-    # perfect_tour_length = 15.0
     imperfect_tours = 0
     for t in population:
         length = eval_tour(G, t)
@@ -292,12 +305,34 @@ def is_valid_solution(G, population):
             imperfect_tours += 1
     return imperfect_tours
     
+def write_to_json(G, population_list):
+    output_dict = {}
+    perfect_tour_length
+    output_dict["mutation_probability"] = mutation_probability
+    output_dict["num_result_populations"] = num_result_populations
+    output_dict["num_generations"] = num_generations
+    output_dict["single_stamp_tour_length"] = single_stamp_tour_length
+    output_dict["upper_stamp_number_limit"] = upper_stamp_number_limit
+    pop_list = []
+    for pop in population_list:
+        new_population = {}
+        new_population["fitness"] = evaluate_population(G, pop)
+        new_population["length_km"] = real_route_length(G, pop)
+        tours = []
+        for t in pop:
+            new_tour = {}
+            new_tour["length_km"] = eval_tour(G, t)
+            new_tour["tour"] = t
+            tours.append(new_tour)
+        new_population["tours"] = tours
+        pop_list.append(new_population)
+    
+    output_dict["populations"] = pop_list
 
-G = prepare_graph(filter=get_visited_dict(), limit=222)
-#tour = create_random_tour(G)
-#tour_length = eval_tour(G, tour)
-#print("tour=",tour)
-#print("tour_length=",tour_length)
+    with open("result.json", "w") as output_file:
+        json.dump(output_dict, output_file, indent=4)
+
+G = prepare_graph(filter=get_visited_dict(), limit=upper_stamp_number_limit)
 
 best_value = None
 best_population = None
@@ -307,27 +342,21 @@ indices_list = []
 
 best_population_list = []
 cnt = 0
-mutation_probability = 0.25
 
-for k in range(2):
+for k in range(num_result_populations):
     while True:
         best_value = None
         best_population = None
         population = create_population(G)
-        for i in range(10000):
+        for i in range(num_generations):
             fitness = evaluate_population(G, population)
             new_population = crossover(G, population)
             if random.random() > mutation_probability:
                 new_population = evolution_step(new_population)
             fitness_after = evaluate_population(G, new_population)
-            # print("old:", population)
-            #print("new:", new_population)
-            #print("fitness_after:", fitness_after)
             if fitness_after < fitness:
                 population = new_population
                 fitness = fitness_after
-                # print("Evolution successful!")
-            #if check_contraints(G, population):
             if not best_population:
                 best_population = population
                 best_value = fitness
@@ -364,6 +393,8 @@ print("RESULTS:")
 pretty_print_population(G, best_population)
 
 draw_hwn_map.draw_map(get_routes(best_population))
+
+write_to_json(G, best_population_list)
     
 '''
 fig, ax = plt.subplots()
