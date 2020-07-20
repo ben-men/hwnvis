@@ -14,16 +14,11 @@ import numpy as np
 import draw_hwn_map
 from copy import deepcopy
 import json
+import argparse
+import time
 
 hwn_file_name = os.path.join("hwn_gpx", "HWN_2020_05_01.gpx")
 done_stamps_folder = "stamps"
-
-perfect_tour_length = 15.0
-mutation_probability = 0.25
-num_result_populations = 2
-num_generations = 10000
-single_stamp_tour_length = 20.0 # magic!
-upper_stamp_number_limit = 100 # None for no limit
 
 def get_visited_dict():
     files = os.listdir(done_stamps_folder)
@@ -58,7 +53,7 @@ def haversine(lon1, lat1, lon2, lat2):
 
 def eval_tour(G, tour):
     if len(tour) <= 1:
-        return single_stamp_tour_length
+        return args.singlestamp
     tour_length = 0.0
     for i in range(len(tour)):
         from_node = tour[i]
@@ -179,36 +174,24 @@ def evaluate_population(G, population):
   
 
 def sort_valid_solution(G, route):
-    # perfect_tour_length = 15.0
     length = eval_tour(G, route)
-    if length < perfect_tour_length*0.5 or length > perfect_tour_length*1.5:
+    if length < args.perfect*0.5 or length > args.perfect*1.5:
         return 1
     return 0
     
 def route_fitness(G, route):
-    #perfect_length = 15.0 # direct distances!
-    # perfect_stops = 4
-    # return (abs(perfect_tour_length - eval_tour(G, route)) + 1)*(abs(perfect_stops - len(route)) + 1)
-    return eval_tour(G, route) / len(route) + (abs(perfect_tour_length - eval_tour(G, route)))
+    return eval_tour(G, route) / len(route) + (abs(args.perfect - eval_tour(G, route)))
     
 def crossover(G, population):
-    p = sorted(population, key=lambda x: sort_valid_solution(G, x))
-    # p = sorted(population, key=lambda x: route_fitness(G, x))
-    
+    p = sorted(population, key=lambda x: sort_valid_solution(G, x))    
     crossover_index = random.randint(0, len(population)-1)
     for i, t in enumerate(p):
         is_valid = sort_valid_solution(G, t)
-        #print("  ", t , " valid=", is_valid, " len=", eval_tour(G, t))
         if is_valid == 1 and i>0:
-            crossover_index = i-1 # 
+            crossover_index = i-1 # the index before is the last valid
             break
-    #print("sorted=",p )
-    
-    
     # now p is sorted
-    # crossover_index = random.randint(0, len(population)-1)
-    
-    #print("crossover at idx:", crossover_index)
+
     p_new = p[0:crossover_index]
     p_reorder = p[crossover_index:]
     
@@ -223,11 +206,6 @@ def crossover(G, population):
             random_idx = random.randint(0, len(to_be_chosen)-1)
             new_tour.append(to_be_chosen[random_idx])
             del to_be_chosen[random_idx]
-        """new_tour = to_be_chosen[:random_length]
-        print("new_tour=", new_tour)
-        for i in range(random_length):
-            del to_be_chosen[0]
-        """
         p_new.append(new_tour)
     return p_new
   
@@ -263,8 +241,6 @@ def evolution_step(old_population):
         tour_index = random.randint(0, len(population)-1)
         if len(population[tour_index]) > 1:
             element_index = random.randint(1, len(population[tour_index])-1)
-            #print("split: ", population[tour_index])
-            #print("-->    ", population[tour_index][:element_index], population[tour_index][element_index:])
             population.append(population[tour_index][element_index:])
             population[tour_index] = population[tour_index][:element_index]
     else:
@@ -286,8 +262,8 @@ def real_route_length(G, population):
     return sum_length 
     
 def pretty_print_population(G, population):
-    print("fitness_after = ", evaluate_population(G, population))
-    print("real length: {}km".format(real_route_length(G, population)))
+    print("Fitness: ", evaluate_population(G, population))
+    print("Real length: {}km".format(real_route_length(G, population)))
     for t in population:
         print(" length=", eval_tour(G, t), "t=",t)
     
@@ -301,18 +277,18 @@ def is_valid_solution(G, population):
     imperfect_tours = 0
     for t in population:
         length = eval_tour(G, t)
-        if length < perfect_tour_length*0.5 or length > perfect_tour_length*1.5:
+        if length < args.perfect*0.5 or length > args.perfect*1.5:
             imperfect_tours += 1
     return imperfect_tours
     
-def write_to_json(G, population_list):
+def write_to_json(G, population_list, process_time=None):
     output_dict = {}
-    perfect_tour_length
-    output_dict["mutation_probability"] = mutation_probability
-    output_dict["num_result_populations"] = num_result_populations
-    output_dict["num_generations"] = num_generations
-    output_dict["single_stamp_tour_length"] = single_stamp_tour_length
-    output_dict["upper_stamp_number_limit"] = upper_stamp_number_limit
+    output_dict["process_time"] = process_time
+    output_dict["mutation_probability"] = args.mutation
+    output_dict["num_result_populations"] = args.resultpopulations
+    output_dict["num_generations"] = args.generations
+    output_dict["single_stamp_tour_length"] = args.singlestamp
+    output_dict["upper_stamp_number_limit"] = args.limit
     pop_list = []
     for pop in population_list:
         new_population = {}
@@ -329,81 +305,101 @@ def write_to_json(G, population_list):
     
     output_dict["populations"] = pop_list
 
-    with open("result.json", "w") as output_file:
+    with open(args.json, "w") as output_file:
         json.dump(output_dict, output_file, indent=4)
 
-G = prepare_graph(filter=get_visited_dict(), limit=upper_stamp_number_limit)
+def init_arg_parser():
+    """Initialize the command-line argument parser and adds all possible command line options.
 
-best_value = None
-best_population = None
+    :return: an initialized command-line parser with all possible options
+    """
+    global args
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-j', '--json', help='Output result JSON file name', required=False, type=str)
+    parser.add_argument('-m', '--mutation', help='Filter for this sprint (all items if none is given)', required=False, type=float, default=0.25)
+    parser.add_argument('-r', '--resultpopulations', help='Number of valid populations needed as a result', required=False, type=int, default=5)
+    parser.add_argument('-g', '--generations', help='Number of generations in each round', required=False, type=int, default=10000)
+    parser.add_argument('-l', '--limit', help='Upper limit for stamp indices', required=False, type=int, default=None)
+    parser.add_argument('-p', '--perfect', help='Perfect tour length in km', required=False, type=float, default=15.0)
+    parser.add_argument('-s', '--singlestamp', help='Length assumption for single-stamp-tours', required=False, type=float, default=20.0)
+    args = parser.parse_args()
 
-fitness_list = []
-indices_list = []
+if __name__ == '__main__':
+    init_arg_parser()
+    
+    G = prepare_graph(filter=get_visited_dict(), limit=args.limit)
 
-best_population_list = []
-cnt = 0
+    best_value = None
+    best_population = None
 
-for k in range(num_result_populations):
-    while True:
-        best_value = None
-        best_population = None
-        population = create_population(G)
-        for i in range(num_generations):
-            fitness = evaluate_population(G, population)
-            new_population = crossover(G, population)
-            if random.random() > mutation_probability:
-                new_population = evolution_step(new_population)
-            fitness_after = evaluate_population(G, new_population)
-            if fitness_after < fitness:
-                population = new_population
-                fitness = fitness_after
-            if not best_population:
-                best_population = population
-                best_value = fitness
-            else:
-                if fitness < best_value:
+    fitness_list = []
+    indices_list = []
+
+    best_population_list = []
+    cnt = 0
+    print("num_result_populations=",args.resultpopulations)
+    t_start = time.process_time()
+    for k in range(args.resultpopulations):
+        while True:
+            best_value = None
+            best_population = None
+            population = create_population(G)
+            for i in range(args.generations):
+                fitness = evaluate_population(G, population)
+                new_population = crossover(G, population)
+                if random.random() > args.mutation:
+                    new_population = evolution_step(new_population)
+                fitness_after = evaluate_population(G, new_population)
+                if fitness_after < fitness:
+                    population = new_population
+                    fitness = fitness_after
+                if not best_population:
                     best_population = population
                     best_value = fitness
-        cnt += 1
-        invalid_tours = is_valid_solution(G, best_population)
-        if invalid_tours == 0:
-            print("*"*20)
-            print("Valid Solution found")
-            print("*"*20)
-            break
-        else:
-            print("Invalid Solution ({} invalid tours)".format(invalid_tours))
-            print("I [{}]: {}".format(cnt, best_value))
-    best_population_list.append(best_population)
+                else:
+                    if fitness < best_value:
+                        best_population = population
+                        best_value = fitness
+            cnt += 1
+            invalid_tours = is_valid_solution(G, best_population)
+            if invalid_tours == 0:
+                print("*"*20)
+                print("Valid Solution found")
+                print("*"*20)
+                break
+            else:
+                print("Invalid Solution ({} invalid tours)".format(invalid_tours))
+                print("[{}]: {}".format(cnt, best_value))
+        best_population_list.append(best_population)
+    t_end = time.process_time()
     
-    
-best_population = None
-best_value = None
-for p in best_population_list:
-    fitness = evaluate_population(G, p)
-    if not best_population:
-        best_population = p
-        best_value = fitness
-    else:
-        if fitness < best_value:
+    best_population = None
+    best_value = None
+    for p in best_population_list:
+        fitness = evaluate_population(G, p)
+        if not best_population:
             best_population = p
             best_value = fitness
-    
-print("RESULTS:")           
-pretty_print_population(G, best_population)
+        else:
+            if fitness < best_value:
+                best_population = p
+                best_value = fitness
+        
+    print("RESULTS:")           
+    pretty_print_population(G, best_population)
 
-draw_hwn_map.draw_map(get_routes(best_population))
+    draw_hwn_map.draw_map(get_routes(best_population))
 
-write_to_json(G, best_population_list)
-    
-'''
-fig, ax = plt.subplots()
-ax.plot(indices_list, fitness_list)
-ax.set(xlabel='indices', ylabel='fitness',
-       title=' ')
-ax.grid()
-# ax.set_yscale('log')
-fig.savefig("test.png")
-plt.show()
-'''
-# draw_graph(G)
+    write_to_json(G, best_population_list, t_end-t_start)
+        
+    '''
+    fig, ax = plt.subplots()
+    ax.plot(indices_list, fitness_list)
+    ax.set(xlabel='indices', ylabel='fitness',
+           title=' ')
+    ax.grid()
+    # ax.set_yscale('log')
+    fig.savefig("test.png")
+    plt.show()
+    '''
+    # draw_graph(G)
