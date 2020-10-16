@@ -1,2 +1,4 @@
 folium
 xmltodict
+networkx
+matplotlib
