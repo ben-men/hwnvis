@@ -1,4 +1,3 @@
-from pyroutelib3 import Router, Datastore # Import the router
 import folium
 import xmltodict
 import os 
@@ -282,6 +281,7 @@ def is_valid_solution(G, population):
     return imperfect_tours
     
 def write_to_json(G, population_list, process_time=None):
+    global args
     output_dict = {}
     output_dict["process_time"] = process_time
     output_dict["mutation_probability"] = args.mutation
@@ -389,8 +389,8 @@ if __name__ == '__main__':
     pretty_print_population(G, best_population)
 
     draw_hwn_map.draw_map(get_routes(best_population))
-
-    write_to_json(G, best_population_list, t_end-t_start)
+    if args.json:
+        write_to_json(G, best_population_list, t_end-t_start)
         
     '''
     fig, ax = plt.subplots()
