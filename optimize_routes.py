@@ -15,6 +15,7 @@ from copy import deepcopy
 import json
 import argparse
 import time
+import sys
 
 hwn_file_name = os.path.join("hwn_gpx", "HWN_2020_05_01.gpx")
 done_stamps_folder = "stamps"
@@ -122,6 +123,12 @@ def prepare_graph(filter=None, limit = None):
             if limit and int(caption.replace("HWN","")) == limit:
                 break
 
+    if filter:
+        for k, v in filter.items():
+            if len(G.nodes)==len(v[0]):
+                print("All stamps already visited for {}!".format(k))
+                sys.exit(-1)
+
     count = 0
     for i in range(len(G.nodes)):
         for j in range(i, len(G.nodes)):
@@ -208,9 +215,9 @@ def crossover(G, population):
         p_new.append(new_tour)
     return p_new
   
-def evolution_step(old_population):
+def evolution_step(G, old_population):
     population = deepcopy(old_population)
-    r = random.randint(0, 7) # both inclusive
+    r = random.randint(0, 6) # 15both inclusive
     if r == 0:
         # arbitrary positions changing
         affected_tour_index = random.randint(0, len(population)-1)
@@ -242,6 +249,27 @@ def evolution_step(old_population):
             element_index = random.randint(1, len(population[tour_index])-1)
             population.append(population[tour_index][element_index:])
             population[tour_index] = population[tour_index][:element_index]
+    elif 7 <= r <= 15:
+        # 
+        tour_index_1 = random.randint(0, len(population)-1)
+        element_index_1 = random.randint(0, len(population[tour_index_1])-1)
+        for_stamp = population[tour_index_1][element_index_1]
+        nearest = get_nearest_stamp(G, for_stamp)
+        # print("chosen=", for_stamp, "nearest=", nearest)
+        # find out where it is :( 
+        switch_tour = None
+        switch_index = None
+        for i, t in enumerate(population):
+            for j, n in enumerate(t):
+                if n== nearest:
+                    switch_tour = i
+                    switch_index = j
+                    break
+            if switch_tour is not None:
+                break
+        
+        if switch_tour is not None and switch_index is not None:
+            population[tour_index_1][element_index_1], population[switch_tour][switch_index] = population[switch_tour][switch_index], population[tour_index_1][element_index_1]
     else:
         # merge tours
         if len(population) >= 2:
@@ -252,7 +280,17 @@ def evolution_step(old_population):
                 del population[tour_index_2]
         
     return population
-    
+  
+def get_nearest_stamp(G, for_stamp):
+    nearest_dist = None
+    nearest_stamp = None
+    for n in G.edges([for_stamp]):
+        dist = haversine(G.nodes[n[0]]['lon'], G.nodes[n[0]]['lat'], G.nodes[n[1]]['lon'], G.nodes[n[1]]['lat'])
+        if nearest_dist is None or dist < nearest_dist:
+            nearest_dist = dist
+            nearest_stamp = n[1]
+    return nearest_stamp
+
 def real_route_length(G, population):
     sum_length = 0.0
     for t in population:
@@ -326,8 +364,9 @@ def init_arg_parser():
 
 if __name__ == '__main__':
     init_arg_parser()
-    
-    G = prepare_graph(filter=get_visited_dict(), limit=args.limit)
+
+    visited_stamps = get_visited_dict()
+    G = prepare_graph(filter=visited_stamps, limit=args.limit)
 
     best_value = None
     best_population = None
@@ -337,7 +376,6 @@ if __name__ == '__main__':
 
     best_population_list = []
     cnt = 0
-    print("num_result_populations=",args.resultpopulations)
     t_start = time.process_time()
     for k in range(args.resultpopulations):
         while True:
@@ -348,7 +386,7 @@ if __name__ == '__main__':
                 fitness = evaluate_population(G, population)
                 new_population = crossover(G, population)
                 if random.random() > args.mutation:
-                    new_population = evolution_step(new_population)
+                    new_population = evolution_step(G, new_population)
                 fitness_after = evaluate_population(G, new_population)
                 if fitness_after < fitness:
                     population = new_population
