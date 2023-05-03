@@ -29,7 +29,8 @@ def get_visited_dict():
         stamps_list = []
         with open(os.path.join(done_stamps_folder, f)) as fd:
             for line in fd:
-                stamps_list.append("HWN"+line.strip())
+                if len(line.strip()) > 0:
+                    stamps_list.append("HWN"+line.strip())
         all_stamps_lists[f.replace(".txt", "")] = (stamps_list, "red")
     return all_stamps_lists
 

@@ -6,9 +6,12 @@ import html
 hwn_file_name = os.path.join("hwn_gpx", "HWN_2020_05_01.gpx")
 done_stamps_folder = "stamps"
 
+COLORS = ['gray', "#FFC300", "#FF5733", "#C70039", "#900C3F", "#581845"]
+
 def draw_map(routes = None, limit = None):
     files = os.listdir(done_stamps_folder)
     all_stamps_lists = {}
+    total_num_visitors = len(files)
     for f in files:
         if not f.endswith(".txt"):
             continue
@@ -42,15 +45,16 @@ def draw_map(routes = None, limit = None):
             for k, v in all_stamps_lists.items():
                 if s["name"] in v[0]:
                     somebody_was_there = True
-                    marker_color = v[1]
+                    #marker_color = v[1]
                     who_was_there.append(k)
                     
-            if len(who_was_there) > 0:        
-                caption += "\n"+"Visitors: {}".format(",".join(who_was_there))   
+            if len(who_was_there) > 0:
+                caption += "\n"+"Visitors: {}".format(",".join(who_was_there))
+            marker_color = COLORS[len(who_was_there)]
             caption = html.escape(caption)
             folium.Marker(
                 location=[float(s["@lat"]), float(s["@lon"])],
-                icon=folium.Icon(color=marker_color, icon='info-sign'),
+                icon=folium.Icon(color='gray', icon_color=marker_color, icon='info-sign'),
                 popup=caption
             ).add_to(m)
             
