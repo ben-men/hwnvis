@@ -15,11 +15,7 @@ BASIC_COLORS_NORMAL = [
     "#d1345b",
     "#070707",
     "#e85d75",
-    "#3bc14a",
-    #"#a4243b",
-    #"#bd632f",
-    #"#8884ff",
-    #"#190b28"
+    "#3bc14a"
 ]
 
 BASIC_COLORS_NORMAL = [
@@ -35,8 +31,7 @@ BASIC_COLORS_NORMAL = [
     "#3c75a7"
 ]
 
-def draw_map(routes = None, limit = None):
-    highlight_newest = True
+def draw_map(highlight_newest, gradient):
     tour_track_points = []
     max_lon = None
     min_lon = None
@@ -64,6 +59,11 @@ def draw_map(routes = None, limit = None):
     center_lat = (float(max_lat) + float(min_lat)) / 2.0
     center_lon = (float(max_lon) + float(min_lon)) / 2.0
         
+    from colour import Color
+    start_color = Color("#a6fd29")
+    end_color = Color("#37013a")
+    colors = list(start_color.range_to(end_color, len(tour_track_points)))
+
     m = folium.Map(location=[center_lat, center_lon], zoom_start=11)
     for i, tour in enumerate(tour_track_points):
         points = []
@@ -77,14 +77,16 @@ def draw_map(routes = None, limit = None):
             #).add_to(m)
             #
             points.append((float(p["@lat"]), float(p["@lon"])))
-        # print("color=", BASIC_COLORS_NORMAL[i%len(BASIC_COLORS_NORMAL)])
         if highlight_newest:
             if i<len(tour_track_points)-1:
                 color = BASIC_COLORS_NORMAL[0]
             else:
                 color = BASIC_COLORS_NORMAL[1]
         else:
-            color = BASIC_COLORS_NORMAL[i%len(BASIC_COLORS_NORMAL)]
+            if gradient:
+                color = colors[i].hex
+            else:
+                color = BASIC_COLORS_NORMAL[i%len(BASIC_COLORS_NORMAL)]
         folium.PolyLine(points, popup=str(i), color=color).add_to(m)
         
 
@@ -92,4 +94,6 @@ def draw_map(routes = None, limit = None):
     
 
 if __name__ == "__main__":
-    draw_map()
+    highlight_newest = False
+    gradient = True
+    draw_map(highlight_newest, gradient)
