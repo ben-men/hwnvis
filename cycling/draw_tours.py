@@ -22,25 +22,35 @@ BASIC_COLORS_NORMAL = [
     #"#190b28"
 ]
 
-def draw_map(routes = None, limit = None):
-    files = os.listdir(gpx_folder)
+BASIC_COLORS_NORMAL = [
+    "#7372af",
+    "#B33F00",
+    "#bd5296",
+    "#662400",
+    "#FF6B1A",
+    "#006663",
+    "#344e5e",
+    "#483056",
+    "#c84961",
+    "#3c75a7"
+]
 
-    all_track_points = []
+def draw_map(routes = None, limit = None):
+    highlight_newest = True
     tour_track_points = []
     max_lon = None
     min_lon = None
     max_lat = None
     min_lat = None
 
+    files = [os.path.join(gpx_folder, f) for f in os.listdir(gpx_folder) if f.endswith(".gpx")] # add path to each file
+    files.sort(key=lambda x: os.path.getmtime(x))
     for f in files:
-        if not f.endswith(".gpx"):
-            continue
-        with open(os.path.join(gpx_folder, f), encoding="utf-8") as fd:
+        with open(f, encoding="utf-8") as fd:
             doc = xmltodict.parse(fd.read())
             new_track_points = doc["gpx"]["trk"]["trkseg"]["trkpt"]
 
             for t in new_track_points:
-                # print(t)
                 if not max_lon or max_lon<t["@lon"]:
                     max_lon = t["@lon"]
                 if not min_lon or min_lon>t["@lon"]:
@@ -49,31 +59,12 @@ def draw_map(routes = None, limit = None):
                     max_lat = t["@lat"]
                 if not min_lat or min_lat>t["@lat"]:
                     min_lat = t["@lat"]
-            all_track_points.extend(new_track_points)
             tour_track_points.append(new_track_points)
 
     center_lat = (float(max_lat) + float(min_lat)) / 2.0
     center_lon = (float(max_lon) + float(min_lon)) / 2.0
         
     m = folium.Map(location=[center_lat, center_lon], zoom_start=11)
-
-    """
-    points = []
-    #print(len(track_points))
-    for i, t in enumerate(all_track_points):
-        marker_color = 'gray'
-        caption = str(i)
-        #folium.Marker(
-        #    location=[float(t["@lat"]), float(t["@lon"])],
-        #    icon=folium.Icon(color=marker_color, icon='info-sign'),
-        #    popup=caption
-        #).add_to(m)
-        #
-        points.append((float(t["@lat"]), float(t["@lon"])))
-    #print(len(points))
-    folium.PolyLine(points).add_to(m)
-    """
-
     for i, tour in enumerate(tour_track_points):
         points = []
         for p in tour:
@@ -86,8 +77,15 @@ def draw_map(routes = None, limit = None):
             #).add_to(m)
             #
             points.append((float(p["@lat"]), float(p["@lon"])))
-        print("color=", BASIC_COLORS_NORMAL[i%len(BASIC_COLORS_NORMAL)])
-        folium.PolyLine(points, popup=str(i), color=BASIC_COLORS_NORMAL[i%len(BASIC_COLORS_NORMAL)]).add_to(m)
+        # print("color=", BASIC_COLORS_NORMAL[i%len(BASIC_COLORS_NORMAL)])
+        if highlight_newest:
+            if i<len(tour_track_points)-1:
+                color = BASIC_COLORS_NORMAL[0]
+            else:
+                color = BASIC_COLORS_NORMAL[1]
+        else:
+            color = BASIC_COLORS_NORMAL[i%len(BASIC_COLORS_NORMAL)]
+        folium.PolyLine(points, popup=str(i), color=color).add_to(m)
         
 
     m.save('index.html')
