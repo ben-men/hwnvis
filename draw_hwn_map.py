@@ -7,11 +7,47 @@ hwn_file_name = os.path.join("hwn_gpx", "HWN_2020_05_01.gpx")
 done_stamps_folder = "stamps"
 
 COLORS = ['gray', "#FFC300", "#FF5733", "#C70039", "#900C3F", "#581845"]
+#HIKER_COLORS = ['#0000fe', '#ff00ff', '#fe0000', '#ffff01', '#00ff01', '#01ffff', '#ffffff']
+AVAILABLE_HIKER_COLORS = ['#0000fe', '#fe0000', '#00ff01', '#01ffff', '#ffffff', '#ff00ff', '#ffff01']
+
+COLOR_BY_NUM = False
+
+# Funktion zum Mischen von Farben im Hex-Format
+def hex_to_rgb(hex_color):
+    """Konvertiert einen Hex-Farbcode in RGB."""
+    hex_color = hex_color.lstrip('#')
+    return tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
+
+def rgb_to_hex(rgb_color):
+    """Konvertiert eine RGB-Farbe in einen Hex-Farbcode."""
+    return '#' + ''.join(f'{x:02x}' for x in rgb_color)
+
+def mix_colors(*colors):
+    """Mischt mehrere Hex-Farben additiv und gibt das Ergebnis als Hex zurück."""
+    total_r, total_g, total_b = 0, 0, 0
+    num_colors = len(colors)
+    if num_colors==0:
+        return '#000000'
+
+    # Addiere die RGB-Werte jeder Farbe
+    for color in colors:
+        r, g, b = hex_to_rgb(color)
+        total_r += r
+        total_g += g
+        total_b += b
+
+    # Berechne den Durchschnitt (sollte mit 255 limitiert werden)
+    avg_r = min(total_r // num_colors, 255)
+    avg_g = min(total_g // num_colors, 255)
+    avg_b = min(total_b // num_colors, 255)
+
+    return rgb_to_hex((avg_r, avg_g, avg_b))
 
 def draw_map(routes = None, limit = None):
     files = os.listdir(done_stamps_folder)
     all_stamps_lists = {}
     total_num_visitors = len(files)
+    hiker_colors = {}
     for f in files:
         if not f.endswith(".txt"):
             continue
@@ -20,6 +56,7 @@ def draw_map(routes = None, limit = None):
             for line in fd:
                 stamps_list.append("HWN"+line.strip())
         all_stamps_lists[f.replace(".txt", "")] = (stamps_list, "red")
+        hiker_colors[f.replace(".txt", "")] = AVAILABLE_HIKER_COLORS[len(hiker_colors)]
 
     with open(hwn_file_name, encoding="utf-8") as fd:
         doc = xmltodict.parse(fd.read())
@@ -50,7 +87,14 @@ def draw_map(routes = None, limit = None):
                     
             if len(who_was_there) > 0:
                 caption += "\n"+"Visitors: {}".format(",".join(who_was_there))
-            marker_color = COLORS[len(who_was_there)]
+            if COLOR_BY_NUM:
+                marker_color = COLORS[len(who_was_there)]
+            else:
+                colors = []
+                for who in who_was_there:
+                    colors.append(hiker_colors[who])
+                marker_color = mix_colors(*colors)
+
             caption = html.escape(caption)
             folium.Marker(
                 location=[float(s["@lat"]), float(s["@lon"])],
