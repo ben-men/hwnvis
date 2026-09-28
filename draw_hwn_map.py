@@ -65,7 +65,11 @@ def draw_map(routes = None, limit = None):
         center_lat = (float(bounds["@maxlat"]) + float(bounds["@minlat"])) / 2.0
         center_lon = (float(bounds["@maxlon"]) + float(bounds["@minlon"])) / 2.0
         
-        m = folium.Map(location=[center_lat, center_lon])
+        m = folium.Map(
+            location=[center_lat, center_lon],
+            tiles="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+            attr="Sources: Esri, HERE, Garmin, USGS, Intermap, INCREMENT P, NRCan, Esri Japan, METI, Esri China (Hong Kong), Esri Korea, Esri (Thailand), NGCC, (c) OpenStreetMap contributors, and the GIS User Community",
+        )
         
         coord_map = {}
         stamps = doc["gpx"]["wpt"]
